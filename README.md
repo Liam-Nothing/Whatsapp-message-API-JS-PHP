@@ -34,7 +34,7 @@ $database = connectDB("nothingefdglobal", $config);
 ```js
 let url = "http://localhost/Whatsapp-message-API-JS-PHP/";
 ```
-- Install the database ``
+- Install the database `nothingefdglobal.sql`.
 
 ## Setup Web
 
