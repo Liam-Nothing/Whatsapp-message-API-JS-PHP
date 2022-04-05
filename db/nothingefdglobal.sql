@@ -40,7 +40,7 @@ CREATE TABLE `app_whatsapp_messager` (
 --
 
 INSERT INTO `app_whatsapp_messager` (`id`, `message`, `last_wirte_date`, `reciver`, `pass`) VALUES
-(1, 'salut-test', '2022-04-05 19:01:27', ' 33695048676', '1234567891234567');
+(1, 'hellow', '2022-04-05 19:01:27', 'XXXXXX', '1234567891234567');
 
 --
 -- Indexes for dumped tables
