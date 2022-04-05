@@ -58,9 +58,9 @@ reciver=[PHONE OF RECIVER]
 - POST
 ```json
 {
-    api:"app_whtsp_update_content",
-    pass:"[PASSWORD]",
-    message:"[MESSAGE]",
-    reciver:"[PHONE OF RECIVER]"
+    "api":"app_whtsp_update_content",
+    "pass":"[PASSWORD]",
+    "message":"[MESSAGE]",
+    "reciver":"[PHONE OF RECIVER]"
 }
 ```
