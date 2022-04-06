@@ -1,12 +1,12 @@
 <?php
 
-    $data = array(["pass", 16, 16], ["message", 500, 0], ["reciver", 30, 0]);
+    $data = array(["pass", 16, 16], ["message", 500, 0], ["receiver", 30, 0]);
     $data = data_security($data_from_client, $data);
     
     if(empty($data["error"])){
-        $sqlr = $database->prepare("UPDATE app_whatsapp_messager SET message = :message, reciver = :reciver WHERE pass = :pass");
+        $sqlr = $database->prepare("UPDATE app_whatsapp_messager SET message = :message, receiver = :receiver WHERE pass = :pass");
         $sqlr->bindParam(':message', $data["message"]);
-        $sqlr->bindParam(':reciver', $data["reciver"]);
+        $sqlr->bindParam(':receiver', $data["receiver"]);
         $sqlr->bindParam(':pass', $data["pass"]);
         $sqlr->execute();
 
