@@ -31,7 +31,7 @@ CREATE TABLE `app_whatsapp_messager` (
   `id` int(11) NOT NULL,
   `message` varchar(500) NOT NULL,
   `last_wirte_date` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  `reciver` varchar(100) NOT NULL,
+  `receiver` varchar(100) NOT NULL,
   `pass` varchar(16) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -39,7 +39,7 @@ CREATE TABLE `app_whatsapp_messager` (
 -- Dumping data for table `app_whatsapp_messager`
 --
 
-INSERT INTO `app_whatsapp_messager` (`id`, `message`, `last_wirte_date`, `reciver`, `pass`) VALUES
+INSERT INTO `app_whatsapp_messager` (`id`, `message`, `last_wirte_date`, `receiver`, `pass`) VALUES
 (1, 'hellow', '2022-04-05 19:01:27', 'XXXXXX', '1234567891234567');
 
 --

@@ -4,7 +4,7 @@
     $data = data_security($data_from_client, $data);
     
     if(empty($data["error"])){
-        $sqlr = $database->prepare("SELECT message, last_wirte_date, reciver FROM app_whatsapp_messager WHERE pass = :pass");
+        $sqlr = $database->prepare("SELECT message, last_wirte_date, receiver FROM app_whatsapp_messager WHERE pass = :pass");
         $sqlr->bindParam(':pass', $data["pass"]);
         $sqlr->execute();
         $sqlr_rows = $sqlr->fetchAll();
