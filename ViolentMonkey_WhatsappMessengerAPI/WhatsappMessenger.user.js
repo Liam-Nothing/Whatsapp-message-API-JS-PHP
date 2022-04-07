@@ -1,7 +1,12 @@
 // ==UserScript==
-// @name     WhatsappMessenger
-// @version  1
-// @grant    none
+// @name        WhatsappMessenger
+// @namespace   Violentmonkey Scripts
+// @match       https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
+// @grant       none
+// @version     1.0
+// @author      -
+// @description 4/7/2022, 6:42:17 PM
+// @inject-into content
 // ==/UserScript==
 
 function RequestAPI(url, data){

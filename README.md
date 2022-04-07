@@ -5,7 +5,7 @@ Using Whatsapp web, JavaScript and PHP.
 
 ## Requirement
 
-Install [Greasemonkey](https://www.greasespot.net/) on your web browser (or any javascript injector).
+Install [Violentmonkey](https://violentmonkey.github.io/) on your web browser (or any javascript injector).
 Go on [web.whatsapp.com](https://web.whatsapp.com/) and login to your accounct.
 
 ## Setup API
@@ -39,7 +39,7 @@ let url = "http://localhost/Whatsapp-message-API-JS-PHP/";
 ## Setup Web
 
 Go on [web.whatsapp.com](https://web.whatsapp.com/) and login to your accounct.
-Import `Greasemonkey_Whatsapp.zip` to your [Greasemonkey](https://www.greasespot.net/).
+Import `Violentmonkey_Whatsapp.zip` to your [Violentmonkey](https://violentmonkey.github.io/).
 Verify is the script is correctly enable.
 Reload the web page.
 
