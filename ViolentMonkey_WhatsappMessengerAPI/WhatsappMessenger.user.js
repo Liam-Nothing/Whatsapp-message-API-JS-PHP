@@ -4,7 +4,7 @@
 // @match       https://addons.mozilla.org/fr/firefox/addon/violentmonkey/
 // @grant       none
 // @version     1.0
-// @author      -
+// @author      Liam-Nothing
 // @description 4/7/2022, 6:42:17 PM
 // @inject-into content
 // ==/UserScript==
